@@ -1,0 +1,56 @@
+nums = [10, 20, 30, 40]
+print(nums)
+nums.append(50)
+print(nums)
+nums.insert(1, 15)
+print(nums)
+nums.remove(20)
+print(nums)
+nums.pop()
+print(nums)
+nums.sort()
+print(nums)
+nums.reverse()
+print(nums)
+
+t = (1, 2, 3, 2, 4)
+print(t)
+print(t[0])
+print(t[1:4])
+print(t.count(2))
+print(t.index(3))
+
+s1 = {1, 2, 3, 4}
+s2 = {3, 4, 5, 6}
+print(s1)
+s1.add(10)
+print(s1)
+s1.remove(10)
+print(s1)
+print(s1.union(s2))
+print(s1.intersection(s2))
+print(s1.difference(s2))
+
+student = {"roll": 17, "name": "Harsh", "marks": 87}
+print(student)
+print(student["name"])
+print(student.get("marks"))
+student["marks"] = 91
+print(student)
+student.update({"city": "Surat"})
+print(student)
+print(list(student.keys()))
+print(list(student.values()))
+print(list(student.items()))
+student.pop("city")
+print(student)
+
+text = "  ssasit computer engineering  "
+print(text)
+text = text.strip()
+print(text)
+print(text.upper())
+print(text.lower())
+print(text.replace("engineering", "department"))
+print(text.split(" "))
+print(text.find("computer"))
